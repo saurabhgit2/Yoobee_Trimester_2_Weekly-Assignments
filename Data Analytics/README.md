@@ -1,0 +1,1 @@
+This folder includes all weekly assignments of Data Analytics 
