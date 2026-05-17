@@ -47,7 +47,7 @@ y = df.iloc[:, -1]
 X_train, X_test, y_train, y_test = train_test_split(
     X,
     y,
-    test_size=0.2,
+    test_size=0.3,
     random_state=42,
     stratify=y
 )
@@ -69,7 +69,7 @@ cm = confusion_matrix(y_test, y_pred)
 print(cm)
 plt.imshow(cm)
 
-plt.title("Confusion Matrix")
+plt.title("Puzzled Matrix")
 
 plt.xlabel("Predicted")
 plt.ylabel("Actual")
